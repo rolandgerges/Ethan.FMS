@@ -50,7 +50,7 @@ public class AddFileCommandHandler : IRequestHandler<AddFileCommand, long>
                 var lastDotIndex = request.File.FileName.LastIndexOf('.');
                 file.Name = request.File.FileName.Substring(0, lastDotIndex) + $"({counter})" +
                             request.File.FileName.Substring(lastDotIndex);
-                Path.Combine("Files", file.Name);
+                file.Path= Path.Combine("Files", file.Name);
             }
 
             counter++;

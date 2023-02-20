@@ -28,7 +28,7 @@ public class AuthenticationController:ControllerBase
     {
         return Ok( await _mediator.Send( new GetAuthenticationTokenQuery()
         {
-            Type =  "write:files"
+            Type = "create:files"
         }));
     }
     [HttpGet("DeleteToken")]
