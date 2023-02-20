@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6116D90C-48A2-41F9-8327-7EBB63EBFBAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.FMS.WebApi", "Ethan.FMS.WebApi\Ethan.FMS.WebApi.csproj", "{08FAA893-89F1-44AA-A84B-0B667139767F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A2A7ED6F-245D-4EE8-8C19-0DE92131FC77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{92A8D240-100C-4FF5-948F-3DF7CC4B5E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.FMS.Persistence", "Ethan.FMS.Persistence\Ethan.FMS.Persistence.csproj", "{8F1A805D-A70A-474D-B25F-F5EDA44A02F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.FMS.Application", "Ethan.FMS.Application\Ethan.FMS.Application.csproj", "{F79FE77F-EFB5-457E-8DC2-4009031BCEB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authorization", "Authorization", "{92BA3299-E720-4B54-AFEB-DD2A81364F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.FMS.Authentication", "Ethan.FMS.Authentication\Ethan.FMS.Authentication.csproj", "{3E11E59F-00DF-4CCD-8681-46EFDCBC571C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08FAA893-89F1-44AA-A84B-0B667139767F} = {6116D90C-48A2-41F9-8327-7EBB63EBFBAC}
+		{8F1A805D-A70A-474D-B25F-F5EDA44A02F4} = {A2A7ED6F-245D-4EE8-8C19-0DE92131FC77}
+		{F79FE77F-EFB5-457E-8DC2-4009031BCEB6} = {92A8D240-100C-4FF5-948F-3DF7CC4B5E15}
+		{3E11E59F-00DF-4CCD-8681-46EFDCBC571C} = {92BA3299-E720-4B54-AFEB-DD2A81364F38}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08FAA893-89F1-44AA-A84B-0B667139767F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FAA893-89F1-44AA-A84B-0B667139767F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FAA893-89F1-44AA-A84B-0B667139767F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FAA893-89F1-44AA-A84B-0B667139767F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1A805D-A70A-474D-B25F-F5EDA44A02F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1A805D-A70A-474D-B25F-F5EDA44A02F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1A805D-A70A-474D-B25F-F5EDA44A02F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1A805D-A70A-474D-B25F-F5EDA44A02F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79FE77F-EFB5-457E-8DC2-4009031BCEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79FE77F-EFB5-457E-8DC2-4009031BCEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79FE77F-EFB5-457E-8DC2-4009031BCEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79FE77F-EFB5-457E-8DC2-4009031BCEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E11E59F-00DF-4CCD-8681-46EFDCBC571C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E11E59F-00DF-4CCD-8681-46EFDCBC571C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E11E59F-00DF-4CCD-8681-46EFDCBC571C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E11E59F-00DF-4CCD-8681-46EFDCBC571C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
